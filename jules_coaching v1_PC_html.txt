@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden"
+      style="--checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(28,23,13)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e'); font-family: Manrope, &quot;Noto Sans&quot;, sans-serif;"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3f0e7] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1c170d]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1c170d] text-lg font-bold leading-tight tracking-[-0.015em]">EmpowerU</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1c170d] text-sm font-medium leading-normal" href="#">홈</a>
+              <a class="text-[#1c170d] text-sm font-medium leading-normal" href="#">코칭</a>
+              <a class="text-[#1c170d] text-sm font-medium leading-normal" href="#">자료</a>
+              <a class="text-[#1c170d] text-sm font-medium leading-normal" href="#">커뮤니티</a>
+              <a class="text-[#1c170d] text-sm font-medium leading-normal" href="#">소개</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f4c653] text-[#1c170d] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">시작하기</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f3f0e7] text-[#1c170d] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">로그인</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <h2 class="text-[#1c170d] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">오늘은 2024년 7월 26일입니다</h2>
+            <p class="text-[#1c170d] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">나는 목표를 달성하고 만족스러운 삶을 만들 수 있습니다.</p>
+            <h3 class="text-[#1c170d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">일일 체크인</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e8e1cf] border-2 bg-transparent text-[#f4c653] checked:bg-[#f4c653] checked:border-[#f4c653] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e8e1cf] focus:outline-none"
+                />
+                <p class="text-[#1c170d] text-base font-normal leading-normal">오늘 기분은 어떠신가요?</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e8e1cf] border-2 bg-transparent text-[#f4c653] checked:bg-[#f4c653] checked:border-[#f4c653] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e8e1cf] focus:outline-none"
+                />
+                <p class="text-[#1c170d] text-base font-normal leading-normal">어제 할 일을 다 하셨나요?</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e8e1cf] border-2 bg-transparent text-[#f4c653] checked:bg-[#f4c653] checked:border-[#f4c653] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e8e1cf] focus:outline-none"
+                />
+                <p class="text-[#1c170d] text-base font-normal leading-normal">자기 관리를 위한 시간을 가지셨나요?</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e8e1cf] border-2 bg-transparent text-[#f4c653] checked:bg-[#f4c653] checked:border-[#f4c653] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e8e1cf] focus:outline-none"
+                />
+                <p class="text-[#1c170d] text-base font-normal leading-normal">동기 부여가 되시나요?</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e8e1cf] border-2 bg-transparent text-[#f4c653] checked:bg-[#f4c653] checked:border-[#f4c653] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e8e1cf] focus:outline-none"
+                />
+                <p class="text-[#1c170d] text-base font-normal leading-normal">오늘 무엇에 감사하시나요?</p>
+              </label>
+            </div>
+            <h3 class="text-[#1c170d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">오늘의 목표</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="오늘 하고 싶은 일 한 가지는 무엇인가요?"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] h-14 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <h3 class="text-[#1c170d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">격려의 말</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="자신에게 격려의 메시지를 작성하세요"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] min-h-36 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <h3 class="text-[#1c170d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">개인 코칭</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="이름"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] h-14 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="전화번호"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] h-14 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="이메일"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] h-14 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="요청 사항을 간략하게 설명해주세요"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1c170d] focus:outline-0 focus:ring-0 border border-[#e8e1cf] bg-[#fcfbf8] focus:border-[#e8e1cf] min-h-36 placeholder:text-[#9b844b] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f4c653] text-[#1c170d] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">제출</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#9b844b] text-base font-normal leading-normal min-w-40" href="#">개인 정보 정책</a>
+                <a class="text-[#9b844b] text-base font-normal leading-normal min-w-40" href="#">서비스 약관</a>
+                <a class="text-[#9b844b] text-base font-normal leading-normal min-w-40" href="#">문의하기</a>
+              </div>
+              <p class="text-[#9b844b] text-base font-normal leading-normal">@2024 EmpowerU. 모든 권리 보유.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
